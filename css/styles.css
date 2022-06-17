@@ -1,0 +1,108 @@
+/* 
+Колір основного тексту: color: #212121; 
+Колір другорядного тексту: color: #757575;
+Білий колір тексту: color: #ffffff;
+Колір акценту: color: #2196f3;
+Чорний колір для лого: color: #000000;
+Колір фону основний: background-color: #ffffff;
+Колір фону другорядний: background-color: #f5f4fa;
+Колір фону секції "Герой" та підвалу сайту: #2f303a;
+*/
+
+:root {
+    --primery-text-color: #212121;
+    --secondary-text-color: #757575;
+    --white-text-color: #ffffff;
+    --accent-color: #2196f3;
+    --primery-background-color: #ffffff;
+    --secondary-background-color: #f5f4fa;
+    --accent-background-color: #2f303a;
+}
+
+body {
+    color: var(--primery-text-color);
+    background-color: var(--primery-background-color);   
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+.link:hover,
+.link:focus,
+.link.current {
+    color: var(--accent-color);
+}
+ 
+/* Header */
+.logo {
+    color: var(--accent-color);
+}
+.logo-black {
+    color: #000000;
+}
+.logo-white {
+    color: var(--white-text-color);
+}
+.contact,
+.description {
+    color: var(--secondary-text-color);
+}
+
+/* Hero */
+.hero {
+    background-color: var(--accent-background-color);
+}
+.hero-title {
+    color: var(--white-text-color);
+}
+.hero-button {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--primery-text-color);
+    background-color: var(--secondary-background-color);
+}
+
+/* Features */
+
+/* Functions */
+
+/* Team */
+.team {
+    background-color: var(--secondary-background-color);
+}
+.person {
+    background-color: var(--primery-background-color);
+}
+
+/* Projects */
+.project-button {
+    color: var(--primery-text-color);
+    background-color: var(--secondary-background-color);
+    cursor: pointer;
+}
+.project-button:hover,
+.project-button:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--accent-background-color);
+}
+.address{
+    color: var(--white-text-color);
+    font-style: normal;
+}
+
+
+
+
+
